@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="Say "
+        android:textSize="8mm"
+        android:textColor="@color/grey"
+        android:fontFamily="serif"
+        android:id="@+id/Say"
+        android:layout_marginEnd="58dp"
+        android:layout_alignBaseline="@+id/Jus"
+        android:layout_alignBottom="@+id/Jus"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/Jus" />
+
+    <ImageView
+        android:layout_width="218dp"
+        android:layout_height="218dp"
+        android:src="@drawable/yellow"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="82dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:text="Jus "
+        android:textSize="8mm"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="serif"
+        android:id="@+id/Jus"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Express What You Feel"
+        android:textSize="3mm"
+        android:id="@+id/Tag_Line"
+        android:layout_below="@+id/Say"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
